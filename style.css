@@ -1,0 +1,75 @@
+.横並びA {
+	/* 横並び */
+	display: flex;
+	
+	/* 各列の間に隙間を開ける */
+	gap: 20px;
+	
+	/* 列をまとめて中央に寄せる */
+	justify-content: center;
+	
+	
+	& .列{
+		background-color: lightgreen;
+	  
+		/*幅*/
+		width: 80px;
+	
+		
+	}
+	
+	
+}
+
+
+.横並びB{
+	
+	display:flex;
+	
+	/* 列を左右の端に分ける */
+	justify-content: space-between;
+	
+	
+	& .広い列 {
+	background-color:lightyellow;	
+	width:200px
+	}
+	
+	& .狭い列{
+	background-color:pink;	
+	width:120px;	
+	}
+	
+}
+
+.横並びC{
+	display:flex;
+  justify-content:space-between;
+	
+	.列2{
+		border: 1px solid black;
+		
+		
+	}
+	
+	
+	.動物名 {
+			font-size: 20px;
+			font-weight: bold;
+      text-indent:0.5em;
+		}
+	
+	
+	.画像{
+		width:100px;
+		padding:10px;
+		
+	}
+	
+	.説明{
+		font-size: 12px;
+		font-weight:normal;
+	  padding:10px;
+		
+	}
+}
